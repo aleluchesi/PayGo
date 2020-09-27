@@ -26,9 +26,9 @@ func main() {
 
 	area.Chip = true
 
-	elo.Parse()
+	campos = elo.Parse{}
 
-	fmt.Printf(Eloparse.Pan)
+	fmt.Printf("PAN: %v\r\n")
 
 	fmt.Printf("Chip 2: %v\r\n", area.Chip)
 

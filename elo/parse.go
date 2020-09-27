@@ -1,10 +1,8 @@
 package elo
 
-import (
+import "github.com/aleluchesi/PayGo/transferarea"
 
-	// Imports within the project
-	"github.com/aleluchesi/paygo/transferarea"
-)
+// Imports within the project
 
 func Parse() {
 
