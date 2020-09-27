@@ -7,7 +7,7 @@ import (
 	"github.com/aleluchesi/proceduresgo"
 
 	// Imports within the project
-	"github.com/aleluchesi/paygo/elo"
+
 	"github.com/aleluchesi/paygo/transferarea"
 )
 
@@ -26,9 +26,9 @@ func main() {
 
 	area.Chip = true
 
-	campos = elo.Parse{}
+	//campos = elo.Parse{}
 
-	fmt.Printf("PAN: %v\r\n")
+	fmt.Print("PAN: %v\r\n")
 
 	fmt.Printf("Chip 2: %v\r\n", area.Chip)
 
