@@ -8,7 +8,9 @@ import (
 
 	// Imports within the project
 
-	"github.com/aleluchesi/paygo/transferarea"
+	"github.com/aleluchesi/PayGo/elo"
+	"github.com/aleluchesi/PayGo/model"
+	"github.com/aleluchesi/PayGo/transferarea"
 )
 
 var (
@@ -26,9 +28,17 @@ func main() {
 
 	area.Chip = true
 
-	//campos = elo.Parse{}
+	Campos := new(model.FieldsIso)
 
-	fmt.Print("PAN: %v\r\n")
+	Campos.Pan = "123"
+
+	fmt.Printf("campos Entrada: %p - %-v\r\n", &Campos, Campos)
+
+	elo.Parse(&Campos)
+
+	fmt.Printf("campos Entrada: %p - %-v\r\n", &Campos, Campos)
+
+	//	fmt.Printf("PAN: %v\r\n", Camposentrada.GetPan())
 
 	fmt.Printf("Chip 2: %v\r\n", area.Chip)
 

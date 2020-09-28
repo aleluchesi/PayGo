@@ -1,8 +1,8 @@
 package transferarea
 
-//Campos estrutura de campos da mensagem ISO
+// Iso8585 fields msg ISO
 
-type Campos struct {
+type Iso8583 struct {
 	Pan            string
 	ProcessingCode string
 	TransAmount    string

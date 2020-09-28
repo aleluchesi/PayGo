@@ -1,17 +1,14 @@
 package elo
 
-import "github.com/aleluchesi/PayGo/transferarea"
+import (
 
-// Imports within the project
+	// Imports within the project
+	"github.com/aleluchesi/PayGo/model"
+)
 
-func Parse() {
+// Parse desmonsta mensagem ISO Elo
+func Parse(campo *model.FieldsIso) {
 
-	Eloparse := new(transferarea.Campos)
-
-	Eloparse.Pan = "1234567890123456"
-	Eloparse.MerchantType = 5999
-	Eloparse.PointOfService = "051"
-	Eloparse.ProcessingCode = "003000"
-	Eloparse.TransAmount = "1000"
+	campo.Pan = "1234567890"
 
 }
