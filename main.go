@@ -8,7 +8,6 @@ import (
 
 	// Imports within the project
 
-	"github.com/aleluchesi/PayGo/elo"
 	"github.com/aleluchesi/PayGo/model"
 	"github.com/aleluchesi/PayGo/transferarea"
 )
@@ -34,7 +33,7 @@ func main() {
 
 	fmt.Printf("campos Entrada: %p - %-v\r\n", &Campos, Campos)
 
-	elo.Parse(&Campos)
+	//elo.Parse(&Campos)
 
 	fmt.Printf("campos Entrada: %p - %-v\r\n", &Campos, Campos)
 
