@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	// Imports off the project
-	"github.com/aleluchesi/proceduresgo"
+	proceduresgo "github.com/aleluchesi/ProceduresGo"
 
 	// Imports within the project
 
