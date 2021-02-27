@@ -29,7 +29,7 @@ func main() {
 
 	Campos := new(model.FieldsIso)
 
-	Campos.Pan = "1234"
+	Campos.Pan = "12345"
 
 	fmt.Printf("campos Entrada: %p - %-v\r\n", &Campos, Campos)
 
